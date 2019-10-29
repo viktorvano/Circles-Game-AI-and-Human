@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CirclesGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CirclesGame_jar</output-path>
+    <root id="archive" name="CirclesGame.jar">
+      <element id="module-output" name="CirclesGame" />
+      <element id="library" level="project" name="lib" />
+    </root>
+  </artifact>
+</component>
