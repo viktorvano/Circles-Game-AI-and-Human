@@ -16,6 +16,8 @@ public class GeneralFunctions {
 
     public static String formatDoubleToString(double number)
     {
-        return new DecimalFormat("##########.########").format(number).toString();
+        DecimalFormatSymbols formatSymbols = new DecimalFormatSymbols(Locale.getDefault());
+        formatSymbols.setDecimalSeparator('.');
+        return new DecimalFormat("##########.########", formatSymbols).format(number);
     }
 }
